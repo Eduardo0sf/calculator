@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizeng: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-color: linear-gradient(black, grey) ; 
+}
+
+body {
+    display: flex;
+    aling-itens: center;
+}
+
+.bg {
+    background: var(--bg-color);
+    witdh: 100%;
+    height: 100vh;
+    
+    
+}
+
+.calculator{
+    text-color: #fff;
+    border-radius: 2rem;
+    background: black;
+    position: absolute;
+
+    padding:1.5rem;
+    witdh: 50rem;
+}
+
+.btn {
+    cursor: pointer;
+    witdh: 50px;
+    height: 50px;
+    font-size: 2.5rem;
+ }
